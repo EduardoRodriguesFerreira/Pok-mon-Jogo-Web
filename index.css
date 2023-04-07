@@ -1,0 +1,86 @@
+html{
+   cursor: url(Imagens/icons8-superball-48.png) 10 10, auto;
+}
+
+
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: dri 2s linear;
+    animation: imagens 25s infinite linear;
+    background-image: url(Imagens/383733.jpg);
+   
+}
+img{
+    width: 70px;
+}
+
+.img1{
+width: 95px;
+}
+.img2{
+    width: 110px;
+}
+.img3{
+    width: 125px;
+}
+
+h1{
+    color: rgb(0, 142, 142);
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   margin-left: 150px;
+}
+button{
+    margin-top: 0px;
+    margin-left: 215px;
+}
+
+.ladoA{
+    transform: scaleX(1);
+}
+
+
+.ladoB{
+    transform: scaleX(-1);
+}
+.dri{
+    display: flex;
+    margin-left: 190px;
+    width: 150px;
+    animation-name:dri;
+    animation: dri 2s  infinite linear;
+    animation-delay: 2s;
+}
+@keyframes dri{
+    to{
+        transform:  rotateX(360deg);
+    }
+    from{
+        transform:  rotateY(60deg);
+        
+    }
+}
+#nivel{
+    margin-left: 95px;
+    margin-right: 95px;
+    text-align: center;
+    color: white;
+    background: black;
+    border-radius: 50px;
+  
+}
+@keyframes imagens{
+    0%{
+     background-image:url(Imagens/476875-anime-anime-girls-digital-art-artwork-2D-portrait.jpg) ;
+    }
+   25%{
+         background-image: url(Imagens/articuno-pokemon-4k_1540755573.jpg);
+   
+        }
+
+        50%{
+            background-image: url(Imagens/taiyo-tenebris-v-with-palette-neon-scribble-and-calligraphy-color2c-signedb.jpg);
+        }
+}

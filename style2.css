@@ -1,0 +1,33 @@
+html{
+    cursor: url(Imagens/icons8-superball-48.png) 10 10, auto;
+}
+.titulo{
+    display: flex;
+    justify-content: left;
+    font-size: 80PX;
+    color: rgb(0, 89, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 25px;
+    text-shadow: 7px 7px 11px rgba(23, 8, 63, 1);
+    
+}
+img{
+    animation-name: dri;
+    animation: dri 2s  infinite linear;
+ 
+
+}
+.bu{
+    margin-left: 80px;
+}
+
+
+
+@keyframes dri{
+    to{
+        transform:  rotateX(360deg);
+    }
+    from{
+        transform:  rotateY(60deg);
+    }
+}

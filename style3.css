@@ -1,0 +1,20 @@
+html{
+    cursor: url(Imagens/icons8-superball-48.png) 10 10, auto;
+}
+img{
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    width: 300px;
+}
+body{
+    background-image: url(Imagens/High_resolution_wallpaper_background_ID_77700116319.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bu{
+    margin-top: 10px;
+    margin-left: 410px;
+}
